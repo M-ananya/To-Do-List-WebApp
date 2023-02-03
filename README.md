@@ -71,5 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### TODO-LIST WEBAPP
 ![Screenshot (66)](https://user-images.githubusercontent.com/94048506/216683052-dfd72753-40a6-4045-8859-2af5bf35a0c9.png)
-![Screenshot (66)](https://user-images.githubusercontent.com/94048506/216683075-178e844e-45a2-4c17-bd48-caad72f8173c.png)
+
+![Screenshot (67)](https://user-images.githubusercontent.com/94048506/216683222-ad2ca986-e3a4-4f17-b31c-6799713976d3.png)
 
