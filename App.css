@@ -1,0 +1,123 @@
+body{
+  background-color: antiquewhite;
+  color: #353434;
+  overflow: hidden;
+}
+h1{
+  text-align: center;
+  color:rosybrown;
+}
+.todo-wrapper{
+  background:lightblue;
+  padding: 2%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 7px rgb(27,27,27);
+}
+
+.todo-input{
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(78, 78, 78);
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.todo-input-item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+}
+
+.todo-input-item label1{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.todo-input-item input{
+  padding: 10px;
+  
+  width: 200px;
+}
+
+.todo-input-item input:focus{
+  outline: 2px solid rosybrown;
+}
+ 
+.primarybtn{
+  background-color: rosybrown;
+  color: white;
+  border: none;
+  border-radius: 0px;
+  margin-top: 20px;
+  padding: 08px;
+  width: 60px;
+  cursor: pointer;
+}
+.secondarybtn{
+  background-color: lightblue;
+  color: white;
+  border: none;
+  border-radius: 0px;
+  margin-top: 05px;
+  padding: 05px;
+  width: fit-content;
+  cursor: pointer;
+}
+.active{
+  background-color: rosybrown ;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 03px;
+  
+}
+
+.todo-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-area{
+  margin-bottom: 10px;
+}
+.todo-list-item{
+  background-color: rgb(85, 187, 210);
+  display: flex;
+  justify-content:space-around;
+  padding: 20px;
+  margin-top: 07px;
+  box-shadow: 0px 3px 5px rgb(78, 78, 78);
+}
+.todo-list-item h3{
+  font-size: 25px;
+  color:rosybrown;
+  font-weight: bold;
+  margin: 0;
+  margin-right: 25px;
+}
+.todo-list-item p{
+  font-size: 14px;
+  color: whitesmoke;
+  margin-top: 10px;
+}
+.icon{
+  font-size: 27px;
+  cursor: pointer;
+}
+.icon:hover{
+  color:#9e1717;
+}
+.checkicon{
+  font-size: 27px;
+  margin-left: 05px;
+  columns: rosybrown;
+}
+.check-icon:hover{
+  color: #9e1717;
+}
